@@ -1,0 +1,478 @@
+<!doctype html>
+<html lang="es-AR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Voltaje · Entrenamiento personal de fuerza en Palermo</title>
+  <meta name="description" content="Entrenamiento personal de fuerza en Palermo, Buenos Aires. Sesiones 1 a 1 de 50 minutos o grupos de máximo 4 personas, con tu rutina siempre en la app. Primera clase de evaluación sin costo.">
+  <meta name="theme-color" content="#121310">
+  <meta name="color-scheme" content="dark">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Voltaje · Entrenamiento personal de fuerza">
+  <meta property="og:description" content="Sesiones 1 a 1 o grupos de máximo 4 en Palermo, Buenos Aires. Tu rutina, siempre en tu celular.">
+  <meta property="og:image" content="assets/img/hero-1440.webp">
+  <meta property="og:locale" content="es_AR">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23121310'/%3E%3Cpath d='M36 6 14 38h16l-4 20 24-34H34z' fill='%23d4ff3a'/%3E%3C/svg%3E">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@500;700;800;900&family=JetBrains+Mono:wght@400;600&family=Schibsted+Grotesk:wght@400;500;600;700&display=swap">
+  <link rel="preload" as="image" href="assets/img/hero-960.webp" imagesrcset="assets/img/hero-500.webp 500w, assets/img/hero-960.webp 960w, assets/img/hero-1440.webp 1440w" imagesizes="(max-width: 900px) 100vw, 36vw" fetchpriority="high">
+  <link rel="stylesheet" href="css/styles.css">
+  <script>document.documentElement.classList.add('js');</script>
+  <script defer src="js/main.js"></script>
+</head>
+<body>
+  <a class="skip" href="#contenido">Saltar al contenido</a>
+
+  <!-- ============ HEADER ============ -->
+  <header class="site-header">
+    <div class="wrap header-row">
+      <a class="brand" href="#inicio" aria-label="Voltaje, ir al inicio">
+        <svg class="brand-bolt" viewBox="0 0 24 24" aria-hidden="true"><path d="M13.5 2 5 14h6l-1.5 8L19 9.5h-6.5z"/></svg>
+        <span class="brand-word">Voltaje</span>
+      </a>
+
+      <nav class="nav-desktop" aria-label="Principal">
+        <a href="#app">La app</a>
+        <a href="#metodo">Método</a>
+        <a href="#semana">Planes</a>
+        <a href="#entrenador">Entrenador</a>
+        <a href="#preguntas">Preguntas</a>
+      </nav>
+
+      <a class="btn btn-volt btn-sm header-cta" href="#reservar">Reservar prueba</a>
+
+      <button class="menu-btn" type="button" popovertarget="menu" aria-label="Abrir menú">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <div id="menu" class="menu-panel" popover>
+    <div class="menu-top">
+      <span class="brand-word neon-text">Voltaje</span>
+      <button class="menu-close" type="button" popovertarget="menu" popovertargetaction="hide" aria-label="Cerrar menú">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
+      </button>
+    </div>
+    <nav aria-label="Menú móvil">
+      <a href="#app">La app</a>
+      <a href="#metodo">Método</a>
+      <a href="#semana">Planes</a>
+      <a href="#entrenador">Entrenador</a>
+      <a href="#preguntas">Preguntas</a>
+      <a class="menu-cta" href="#reservar">Reservar clase de prueba</a>
+    </nav>
+  </div>
+
+  <main id="contenido">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="inicio" aria-labelledby="hero-title">
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <div class="open-sign" data-open-sign aria-live="polite">
+            <span class="open-sign-tube" data-open-label>Abierto</span>
+            <span class="open-sign-meta" data-open-meta>Lun a vie 7–22 h · Sáb 9–14 h</span>
+          </div>
+
+          <h1 class="hero-title" id="hero-title">
+            <span class="ht-line">Entrená fuerte,</span>
+            <span class="ht-line ht-neon"><span class="neon-tube">con voltaje.</span></span>
+          </h1>
+
+          <p class="hero-lede">
+            Entrenamiento personal de fuerza en <strong>Palermo, Buenos Aires</strong>.
+            Sesiones 1 a 1 de 50 minutos o grupos de máximo 4 personas, con un plan escrito para vos.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-volt" href="#reservar">
+              Reservar clase de prueba
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+            <a class="link-draw" href="#semana">Armar mi semana</a>
+          </div>
+
+          <dl class="hero-facts">
+            <div><dt>Sesión</dt><dd>50 min</dd></div>
+            <div><dt>Grupo</dt><dd>máx. 4</dd></div>
+            <div><dt>Primera clase</dt><dd>sin costo</dd></div>
+          </dl>
+        </div>
+
+        <figure class="hero-photo photo-frame photo-lit">
+          <img src="assets/img/hero-960.webp"
+               srcset="assets/img/hero-500.webp 500w, assets/img/hero-960.webp 960w, assets/img/hero-1440.webp 1440w"
+               sizes="(max-width: 900px) 100vw, 36vw"
+               width="1440" height="2160"
+               alt="Atleta en posición de largada, con las manos apoyadas en el piso y la mirada al frente"
+               fetchpriority="high" decoding="async">
+          <span class="hero-tag" aria-hidden="true">
+            <span class="rec-dot"></span> Serie 3 de 4 · 5 reps
+          </span>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ============ LA APP ============ -->
+    <section class="section" id="app" aria-labelledby="app-title">
+      <div class="wrap">
+        <header class="sec-head">
+          <h2 id="app-title" class="h2">Tu rutina siempre con vos</h2>
+          <p class="lede">
+            Con tu plan te damos acceso a la app de Voltaje. Ahí cargamos tu rutina cada semana, así llegás
+            al estudio, o entrenás de viaje, sabiendo exactamente qué te toca. No te perdés nada.
+          </p>
+        </header>
+
+        <div class="split">
+          <div class="split-media photo-frame app-media">
+            <img src="assets/img/app-960.webp"
+                 srcset="assets/img/app-500.webp 500w, assets/img/app-960.webp 960w, assets/img/app-1440.webp 1440w"
+                 sizes="(max-width: 900px) 100vw, 50vw" width="1440" height="960"
+                 alt="Persona en el gimnasio mirando su entrenamiento en el celular"
+                 loading="lazy" decoding="async">
+
+            <div class="phone" role="group" aria-labelledby="phone-title">
+              <div class="phone-notch" aria-hidden="true"></div>
+              <div class="phone-screen">
+                <div class="phone-head">
+                  <p class="phone-day mono">Martes · Semana 5</p>
+                  <h3 id="phone-title" class="phone-title">Tren inferior + tirón</h3>
+                  <div class="phone-progress" aria-hidden="true"><span data-board-bar></span></div>
+                  <p class="phone-count mono" aria-live="polite"><span data-board-done>0</span> de <span data-board-total>6</span> completados</p>
+                </div>
+                <ol class="board-list">
+                  <li><label><input type="checkbox"><span class="b-name">Movilidad de cadera 90/90</span><span class="b-dose">6 min</span></label></li>
+                  <li><label><input type="checkbox"><span class="b-name">Sentadilla goblet</span><span class="b-dose">4 × 8</span></label></li>
+                  <li><label><input type="checkbox"><span class="b-name">Remo con mancuerna</span><span class="b-dose">4 × 10</span></label></li>
+                  <li><label><input type="checkbox"><span class="b-name">Peso muerto rumano</span><span class="b-dose">3 × 8</span></label></li>
+                  <li><label><input type="checkbox"><span class="b-name">Plancha con arrastre</span><span class="b-dose">3 × 30 s</span></label></li>
+                  <li><label><input type="checkbox"><span class="b-name">Respiración y registro</span><span class="b-dose">4 min</span></label></li>
+                </ol>
+                <p class="board-done" data-board-message hidden>¡Sesión completa! Tus cargas quedaron guardadas.</p>
+                <nav class="phone-tabs" aria-hidden="true">
+                  <span class="is-on">Hoy</span><span>Plan</span><span>Progreso</span><span>Chat</span>
+                </nav>
+              </div>
+            </div>
+          </div>
+
+          <div class="split-content">
+            <ul class="feature-list">
+              <li>
+                <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M8 8h8M8 12h8M8 16h5"/></svg>
+                <div><h3>Rutina cargada cada semana</h3><p>Series, repeticiones y descansos, día por día.</p></div>
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m10 9 5 3-5 3z"/></svg>
+                <div><h3>Video de cada ejercicio</h3><p>Para repasar la técnica antes de levantar.</p></div>
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg>
+                <div><h3>Registro de cargas</h3><p>Anotás lo que levantaste y ves tu progreso semana a semana.</p></div>
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1-4.6A8 8 0 1 1 21 12z"/></svg>
+                <div><h3>Chat con tu entrenador</h3><p>Dudas, cambios de turno y ajustes del plan.</p></div>
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 9-3 9h18s-3-2-3-9M13.7 21a2 2 0 0 1-3.4 0"/></svg>
+                <div><h3>Recordatorios de sesión</h3><p>Un aviso antes de cada turno para que no se te pase.</p></div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ MÉTODO ============ -->
+    <section class="section" id="metodo" aria-labelledby="metodo-title">
+      <div class="wrap">
+        <header class="sec-head">
+          <h2 id="metodo-title" class="h2">Doce semanas, tres etapas</h2>
+          <p class="lede">Nada de rutinas sacadas de internet. Cada etapa tiene una meta medible y una fecha para revisarla.</p>
+        </header>
+
+        <div class="timeline">
+          <div class="tl-track" aria-hidden="true">
+            <div class="tl-rail"><span class="tl-fill"></span></div>
+            <div class="tl-weeks">
+              <ol style="--n:2"><li>1</li><li>2</li></ol>
+              <ol style="--n:6"><li>3</li><li>4</li><li>5</li><li>6</li><li>7</li><li>8</li></ol>
+              <ol style="--n:4"><li>9</li><li>10</li><li>11</li><li>12</li></ol>
+            </div>
+          </div>
+
+          <ol class="stages">
+            <li class="stage">
+              <p class="stage-weeks mono">Semanas 1–2</p>
+              <h3 class="stage-title">Diagnóstico</h3>
+              <p>Evaluamos movilidad, fuerza base e historial de lesiones. Salís con números, no con impresiones.</p>
+            </li>
+            <li class="stage">
+              <p class="stage-weeks mono">Semanas 3–8</p>
+              <h3 class="stage-title">Construcción</h3>
+              <p>Cargas progresivas cada semana y técnica revisada en video cada quince días.</p>
+            </li>
+            <li class="stage">
+              <p class="stage-weeks mono">Semanas 9–12</p>
+              <h3 class="stage-title">Autonomía</h3>
+              <p>Aprendés a ajustar tu propio plan para seguir progresando sin depender de nadie.</p>
+            </li>
+          </ol>
+        </div>
+
+        <figure class="banner photo-frame">
+          <img src="assets/img/metodo-960.webp"
+               srcset="assets/img/metodo-500.webp 500w, assets/img/metodo-960.webp 960w, assets/img/metodo-1440.webp 1440w"
+               sizes="(max-width: 1200px) 100vw, 1200px" width="1440" height="960"
+               alt="Toma baja de una persona tomando la barra cargada para un peso muerto"
+               loading="lazy" decoding="async">
+        </figure>
+      </div>
+    </section>
+
+    <!-- ============ PLANIFICADOR ============ -->
+    <section class="section semana" id="semana" aria-labelledby="semana-title">
+      <div class="wrap">
+        <header class="sec-head">
+          <h2 id="semana-title" class="h2">Armá tu semana</h2>
+          <p class="lede">Elegí tu objetivo, cuántos días podés venir, cómo preferís entrenar y por cuánto tiempo. Te mostramos la semana y lo que cuesta.</p>
+        </header>
+
+        <div class="split planner" data-planner>
+          <form class="planner-controls" aria-label="Opciones del plan">
+            <fieldset class="seg">
+              <legend>Objetivo</legend>
+              <div class="seg-row">
+                <label><input type="radio" name="goal" value="fuerza" checked><span>Ganar fuerza</span></label>
+                <label><input type="radio" name="goal" value="recomp"><span>Bajar grasa</span></label>
+                <label><input type="radio" name="goal" value="volver"><span>Volver a moverme</span></label>
+              </div>
+            </fieldset>
+            <fieldset class="seg">
+              <legend>Días por semana</legend>
+              <div class="seg-row">
+                <label><input type="radio" name="days" value="2"><span>2 días</span></label>
+                <label><input type="radio" name="days" value="3" checked><span>3 días</span></label>
+                <label><input type="radio" name="days" value="4"><span>4 días</span></label>
+              </div>
+            </fieldset>
+            <fieldset class="seg">
+              <legend>Modalidad</legend>
+              <div class="seg-row">
+                <label><input type="radio" name="mode" value="solo" checked><span>1 a 1</span></label>
+                <label><input type="radio" name="mode" value="grupo"><span>Grupo de 4</span></label>
+              </div>
+            </fieldset>
+            <fieldset class="seg">
+              <legend>Duración</legend>
+              <div class="seg-row">
+                <label><input type="radio" name="weeks" value="4" checked><span>4 semanas</span></label>
+                <label><input type="radio" name="weeks" value="8"><span>8 semanas</span></label>
+                <label><input type="radio" name="weeks" value="12"><span>12 semanas</span></label>
+              </div>
+            </fieldset>
+          </form>
+
+          <div class="planner-out">
+            <ol class="week" data-week aria-label="Tu semana"></ol>
+
+            <div class="price-row">
+              <div class="price-block">
+                <p class="price-label mono" data-price-label>Total por 4 semanas</p>
+                <p class="price" aria-live="polite">
+                  <span class="price-num" data-price data-assumed>$ 115.000</span>
+                  <span class="price-unit">ARS</span>
+                </p>
+                <p class="price-note muted" data-price-note>12 sesiones · 1 a 1 · app incluida</p>
+              </div>
+              <a class="btn btn-volt" href="#reservar" data-plan-cta>
+                Reservar con este plan
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ENTRENADOR ============ -->
+    <section class="section" id="entrenador" aria-labelledby="coach-title">
+      <div class="wrap">
+        <header class="sec-head">
+          <h2 id="coach-title" class="h2">Conocé a tu entrenador</h2>
+          <p class="lede">
+            Un profesional que te mira entrenar de verdad. Profesor de Educación Física y entrenador personal
+            certificado, acompaña a quienes arrancan de cero, a quienes vuelven de una lesión y a quienes quieren
+            llevar su fuerza al siguiente nivel.
+          </p>
+        </header>
+
+        <div class="split">
+          <figure class="split-media photo-frame">
+            <img src="assets/img/coach-960.webp"
+                 srcset="assets/img/coach-500.webp 500w, assets/img/coach-960.webp 960w, assets/img/coach-1440.webp 1440w"
+                 sizes="(max-width: 900px) 100vw, 50vw" width="1440" height="960"
+                 alt="Entrenamiento personal: corrección de postura durante una flexión de brazos"
+                 loading="lazy" decoding="async">
+          </figure>
+
+          <div class="split-content">
+            <blockquote class="pull">
+              <p>“No vendemos transformaciones de 30 días. Entrenamos a la versión tuya que sigue viniendo en diciembre.”</p>
+            </blockquote>
+
+            <ul class="creds">
+              <li><span class="mono">Experiencia</span> Más de diez años como entrenador personal</li>
+              <li><span class="mono">Alumnos</span> Cientos de personas acompañadas, de 16 a 70 años</li>
+              <li><span class="mono">Formación</span> Fuerza, movilidad, nutrición deportiva y readaptación de lesiones</li>
+              <li><span class="mono">Enfoque</span> Técnica primero, cargas progresivas y seguimiento semanal</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PREGUNTAS ============ -->
+    <section class="section" id="preguntas" aria-labelledby="faq-title">
+      <div class="wrap">
+        <header class="sec-head">
+          <h2 id="faq-title" class="h2">Preguntas antes de empezar</h2>
+          <p class="lede">Si tu duda no está acá, escribila en el formulario y te respondemos.</p>
+        </header>
+
+        <div class="split">
+          <figure class="split-media photo-frame">
+            <img src="assets/img/faq-960.webp"
+                 srcset="assets/img/faq-500.webp 500w, assets/img/faq-960.webp 960w, assets/img/faq-1440.webp 1440w"
+                 sizes="(max-width: 900px) 100vw, 50vw" width="1440" height="956"
+                 alt="Espalda de una atleta en penumbra durante un entrenamiento"
+                 loading="lazy" decoding="async">
+          </figure>
+
+          <div class="split-content faq">
+            <details name="faq" open>
+              <summary>¿Necesito experiencia previa?</summary>
+              <p>No. La mitad de quienes entrenan en Voltaje empezó sin saber sostener una barra. La primera sesión es de evaluación y el plan arranca desde donde estás.</p>
+            </details>
+            <details name="faq">
+              <summary>Tengo una lesión. ¿Puedo entrenar?</summary>
+              <p>En la mayoría de los casos, sí. Si estás en tratamiento, coordinamos con tu kinesiólogo y adaptamos cada ejercicio. Si algo duele, se cambia.</p>
+            </details>
+            <details name="faq">
+              <summary>¿Cómo funciona la app?</summary>
+              <p>Al empezar te damos acceso. Cada semana cargamos tu rutina con videos de cada ejercicio, y vos anotás tus cargas para que podamos ajustar el plan.</p>
+            </details>
+            <details name="faq">
+              <summary>¿Puedo cambiar el horario de una sesión?</summary>
+              <p>Sí, con 12 horas de aviso desde el chat de la app. La reprogramamos en la misma semana según los turnos libres.</p>
+            </details>
+            <details name="faq">
+              <summary>¿Qué llevo a la primera clase?</summary>
+              <p>Ropa cómoda, zapatillas de suela plana, una botella de agua y ganas de contarnos cómo te movés hoy. El resto lo tiene el estudio.</p>
+            </details>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ RESERVAR ============ -->
+    <section class="section" id="reservar" aria-labelledby="reservar-title">
+      <div class="wrap">
+        <div class="split reservar-split">
+          <header class="sec-head reservar-head">
+            <h2 id="reservar-title" class="h2">Reservá tu clase de prueba</h2>
+            <p class="lede">Cincuenta minutos de evaluación, sin costo. Te escribimos en menos de 24 horas para confirmar el turno.</p>
+            <dl class="visit">
+              <div><dt class="mono">Dónde</dt><dd>Gorriti y Thames, Palermo Soho</dd></div>
+              <div><dt class="mono">Lun a vie</dt><dd data-assumed>7:00 a 22:00</dd></div>
+              <div><dt class="mono">Sábado</dt><dd data-assumed>9:00 a 14:00</dd></div>
+            </dl>
+          </header>
+
+          <form class="split-content booking" data-booking novalidate>
+            <div class="field">
+              <label for="f-name">Nombre</label>
+              <input id="f-name" name="name" type="text" autocomplete="name" required aria-describedby="e-name">
+              <p class="field-error" id="e-name" hidden>Escribí tu nombre para saber cómo llamarte.</p>
+            </div>
+
+            <div class="field">
+              <label for="f-contact">WhatsApp o correo</label>
+              <input id="f-contact" name="contact" type="text" autocomplete="email" inputmode="email" required aria-describedby="e-contact">
+              <p class="field-error" id="e-contact" hidden>Necesitamos un correo válido o un número de al menos 10 dígitos.</p>
+            </div>
+
+            <div class="field-row">
+              <div class="field">
+                <label for="f-goal">Objetivo</label>
+                <select id="f-goal" name="goal">
+                  <option value="fuerza">Ganar fuerza</option>
+                  <option value="recomp">Bajar grasa</option>
+                  <option value="volver">Volver a moverme</option>
+                </select>
+              </div>
+              <div class="field">
+                <label for="f-days">Días por semana</label>
+                <select id="f-days" name="days">
+                  <option value="2">2 días</option>
+                  <option value="3" selected>3 días</option>
+                  <option value="4">4 días</option>
+                </select>
+              </div>
+            </div>
+
+            <fieldset class="field seg seg-time">
+              <legend>Horario preferido</legend>
+              <div class="seg-row">
+                <label><input type="radio" name="time" value="manana" checked><span>Mañana</span></label>
+                <label><input type="radio" name="time" value="mediodia"><span>Mediodía</span></label>
+                <label><input type="radio" name="time" value="tarde"><span>Tarde-noche</span></label>
+              </div>
+            </fieldset>
+
+            <div class="field">
+              <label for="f-msg">Algo que debamos saber <span class="muted">(opcional)</span></label>
+              <textarea id="f-msg" name="message" rows="3" placeholder="Una lesión, un objetivo, tu horario de trabajo…"></textarea>
+            </div>
+
+            <button class="btn btn-volt btn-block" type="submit" data-submit>
+              <span class="btn-label">Enviar solicitud</span>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </button>
+
+            <div class="booking-ok" data-booking-ok role="status" hidden tabindex="-1">
+              <p class="booking-ok-title neon-text">Solicitud recibida</p>
+              <p>Gracias, <span data-ok-name></span>. Te escribimos en menos de 24 horas para confirmar tu clase de prueba.</p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <p class="footer-sign" aria-hidden="true"><span class="neon-tube">Voltaje</span></p>
+      <nav class="footer-nav" aria-label="Pie de página">
+        <a href="#app">La app</a>
+        <a href="#metodo">Método</a>
+        <a href="#semana">Planes</a>
+        <a href="#reservar">Reservar</a>
+        <a href="https://www.instagram.com/" rel="noopener">Instagram</a>
+      </nav>
+      <p class="footer-meta muted">
+        Sitio demo para un cliente ficticio. © <span data-year>2026</span> Voltaje.
+      </p>
+      <p class="footer-credits muted">
+        Fotos: <a href="https://unsplash.com/license" rel="noopener license">Unsplash</a>, en blanco y negro.
+      </p>
+    </div>
+  </footer>
+</body>
+</html>

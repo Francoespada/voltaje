@@ -1,0 +1,8 @@
+# Solo se publican los archivos del sitio
+/*
+!/index.html
+!/credits.html
+!/css/
+!/js/
+!/assets/
+!/.gitignore
